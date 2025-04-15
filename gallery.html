@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Gallery</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+
+    header, nav, footer {
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+        color: #444;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    ul, ol {
+        margin-left: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input, textarea {
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #555;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+
+    .stars {
+        font-size: 1.5em;
+        color: gold;
+    }
+
+   
+    .search-bar {
+        margin-left:550px;
+    }
+</style>
+<body>
+  <header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about-me.html">About Me</a> |
+        <a href="contact.html">Contact Me</a> |
+        <a href="gallery.html">Gallery</a>
+          <input class="search-bar" type="text" placeholder="Search...">
+       
+      </nav>
+  </header>
+
+  <main>
+    <h1>My Gallery</h1>
+
+    <section>
+      <figure>
+        <img src="image1.jpg" alt="My fashion Design" width="200">
+       
+        <img src="f2.jpg" alt="My fashion Design" width="200">
+        <img src="f3.jpg" alt="My fashion Design" width="200">
+
+        <figcaption> some fashion design I created</figcaption>
+      </figure>
+      <figure>
+        <img src="image2.jpg" alt="Wall Art" width="200">
+        
+        <img src="w2.jpg" alt="My fashion Design" width="200">
+        <img src="w3.jpg" alt="My fashion Design" width="200">
+
+        <figcaption>Decorative wall art I embroidered</figcaption>
+      </figure>
+      <figure>
+        <img src="image3.jpg" alt="Coffee Time" width="200">
+        <img src="c2.jpg" alt="My fashion Design" width="200">
+        <img src="c3.jpg" alt="My fashion Design" width="200">
+
+        <figcaption>My morning coffee setup</figcaption>
+      </figure>
+      <figure>
+        <img src="image4.jpg" alt="Nature Walk" width="200">
+     
+        <img src="t2.jpg" alt="My fashion Design" width="200">
+        <img src="t3.jpg" alt="My fashion Design" width="200">
+
+        <figcaption>Photo I took during a morning walk</figcaption>
+      </figure>
+    </section>
+
+    <footer>
+      <p><a href="index.html">Back to Home</a></p>
+    </footer>
+  </main>
+</body>
+</html>
